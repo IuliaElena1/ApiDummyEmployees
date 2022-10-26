@@ -8,10 +8,6 @@ namespace DummyEndpoints
     public class EmployeeTests
     {
 
-        /// <summary>
-        /// Successfully retrieves all employees and counts the number of employees with age number higher than 30
-        /// </summary>
-        /// <returns></returns>
         [TestMethod]
         public async Task TestEmployee()
         {
